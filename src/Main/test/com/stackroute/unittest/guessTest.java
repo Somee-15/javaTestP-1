@@ -8,9 +8,10 @@ import static org.junit.Assert.*;
 
 public class guessTest {
     guess g;
+
     @Before
     public void setUp() throws Exception {
-        g=new guess();
+        g = new guess();
     }
 
     @After
@@ -27,8 +28,8 @@ public class guessTest {
         long actualValue1=p.palcheck(1234);
 
         assertNotEquals(expectedValue1,actualValue1);*/
-        boolean expected=true;
-        boolean actual=g.guessing(25);
-        assertEquals(expected,actual);
+        boolean expected = true;
+        boolean actual = g.guessing(25);
+        assertEquals(expected, actual);
     }
 }

@@ -8,9 +8,10 @@ import static org.junit.Assert.*;
 
 public class ncrossTest {
     ncross n;
+
     @Before
     public void setUp() throws Exception {
-        n=new ncross();
+        n = new ncross();
     }
 
     @After
@@ -19,8 +20,8 @@ public class ncrossTest {
 
     @Test
     public void cross() {
-        boolean expected=true;
-        boolean actualValue=n.cross(5);
-        assertEquals(expected,actualValue);
+        boolean expected = true;
+        boolean actualValue = n.cross(5);
+        assertEquals(expected, actualValue);
     }
 }

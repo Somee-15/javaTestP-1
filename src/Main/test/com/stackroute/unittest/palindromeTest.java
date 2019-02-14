@@ -8,9 +8,10 @@ import static org.junit.Assert.*;
 
 public class palindromeTest {
     palindrome p;
+
     @Before
     public void setUp() throws Exception {
-       p=new palindrome();
+        p = new palindrome();
     }
 
     @After
@@ -26,13 +27,13 @@ public class palindromeTest {
         String actualValue=app.concatAndConvertString("bc", "A");
         //Assert
            assertNotNull(actualValue);*/
-        long expectedValue=1234321;
-        long actualValue=p.palcheck(1234321);
+        long expectedValue = 1234321;
+        long actualValue = p.palcheck(1234321);
 
-        assertEquals(expectedValue,actualValue);
-        long expectedValue1=1234;
-        long actualValue1=p.palcheck(1234);
+        assertEquals(expectedValue, actualValue);
+        long expectedValue1 = 1234;
+        long actualValue1 = p.palcheck(1234);
 
-        assertNotEquals(expectedValue1,actualValue1);
+        assertNotEquals(expectedValue1, actualValue1);
     }
 }

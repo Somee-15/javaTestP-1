@@ -8,9 +8,10 @@ import static org.junit.Assert.*;
 
 public class stringReverseTest {
     stringReverse s1;
+
     @Before
     public void setUp() throws Exception {
-        s1=new stringReverse();
+        s1 = new stringReverse();
     }
 
     @After
@@ -19,7 +20,7 @@ public class stringReverseTest {
 
     @Test
     public void reverse() {
-        boolean expected=true;
-        boolean actual=s1.reverse("MALAYALAM");
+        boolean expected = true;
+        boolean actual = s1.reverse("MALAYALAM");
     }
 }

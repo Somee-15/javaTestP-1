@@ -8,9 +8,10 @@ import static org.junit.Assert.*;
 
 public class sortingTest {
     sorting s;
+
     @Before
     public void setUp() throws Exception {
-        s=new sorting();
+        s = new sorting();
     }
 
     @After
@@ -19,8 +20,8 @@ public class sortingTest {
 
     @Test
     public void sort() {
-        boolean expected=true;
-        boolean actual=s.sort(987654321);
-        assertEquals(expected,actual);
+        boolean expected = true;
+        boolean actual = s.sort(987654321);
+        assertEquals(expected, actual);
     }
 }

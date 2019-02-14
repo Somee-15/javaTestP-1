@@ -8,9 +8,10 @@ import static org.junit.Assert.*;
 
 public class repeatTest {
     repeat r;
+
     @Before
     public void setUp() throws Exception {
-        r=new repeat();
+        r = new repeat();
     }
 
     @After
@@ -19,7 +20,7 @@ public class repeatTest {
 
     @Test
     public void repeater() {
-        boolean expected=true;
-        boolean actual=r.repeater("Sachin",2);
+        boolean expected = true;
+        boolean actual = r.repeater("Sachin", 2);
     }
 }

@@ -8,9 +8,10 @@ import static org.junit.Assert.*;
 
 public class inputTest {
     input i;
+
     @Before
     public void setUp() throws Exception {
-        i=new input();
+        i = new input();
     }
 
     @After
@@ -19,13 +20,13 @@ public class inputTest {
 
     @Test
     public void validator() {
-        boolean expected=true;
-        boolean actual=i.validator(25);
-        assertEquals(expected,actual);
+        boolean expected = true;
+        boolean actual = i.validator(25);
+        assertEquals(expected, actual);
 
-        boolean expected1=true;
-        boolean actual1=i.validator(24);
-        assertEquals(expected1,actual1);
+        boolean expected1 = true;
+        boolean actual1 = i.validator(24);
+        assertEquals(expected1, actual1);
 
     }
 }

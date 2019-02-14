@@ -1,13 +1,12 @@
 package com.stackroute.unittest;
 
-import java.util.Scanner;
+
 public class vowel {
-    public  boolean vowelChecker(String str)
-    {
+    public boolean vowelChecker(String str) {
         int i;
         char[] arr = str.toCharArray();
         for (i = 0; i < arr.length; i++) {
-            if((arr[i]>=48 && arr[i]<=57) ||(arr[i]>=58 && arr[i]<=64) || (arr[i]>=91 && arr[i]<=95)) {
+            if ((arr[i] >= 48 && arr[i] <= 57) || (arr[i] >= 58 && arr[i] <= 64) || (arr[i] >= 91 && arr[i] <= 95)) {
                 System.out.println("Error.Please enter an alphabet string only");
                 return true;
             }
